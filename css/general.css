@@ -1,0 +1,137 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+textarea, input, select {
+    border: none;
+    box-shadow: 0 0 2px 2px #0084ff;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+textarea:hover, input:hover, select:hover {
+    box-shadow: 0 0 5px 1px #0084ff;
+}
+
+.judul {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px #fff;
+    color: rgba(4, 56, 199, 0.7);
+}
+
+.paragraph {
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #000;
+}
+
+header {
+    background: linear-gradient(to right, rgba(0, 28, 105, 0.7), #0084ff);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+}
+
+header .container-header {
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+
+/* ----- Pembuka Button ----- */
+.btn-home {
+    background: #0084ff;
+    padding: 15px;
+    border-radius: 5px;
+    width: max-content;
+    box-shadow: 0 0 10px 0.5px rgba(0,0,0,0.3);
+}
+
+button {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #0084ff;
+    box-shadow: 0 0 2px 2px #0084ff;
+}
+/* ----- Penutup Button ----- */
+
+
+/* ----- Pembuka Button Kembali ----- */
+.back {
+    padding: 3em 90% 2em 2em;
+}
+
+.btn {
+    padding: 12px 24px;
+    opacity: 0.8;
+    border-radius: 55px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.read {
+    background-color: #0084ff;
+    cursor: pointer;
+    box-shadow: 5px 5px #fff;
+    border-radius: 10px;
+}
+
+.read:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn-back {
+    text-align: center;
+}
+
+.back a {
+    color: #fff;
+    font-weight: 600;
+}
+/* ----- Penutup Button Kembali ----- */
